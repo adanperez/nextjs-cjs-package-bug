@@ -9,9 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@test/cjs-module": "file:local_modules/cjs-module",
+    "@test/esm-module": "file:local_modules/esm-module",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.3"
+    "next": "v14.3.0-canary.65"
   },
   "devDependencies": {
     "typescript": "^5",
@@ -19,8 +21,13 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "postcss": "^8",
+    "prettier": "3.3.0",
     "tailwindcss": "^3.4.1",
     "eslint": "^8",
     "eslint-config-next": "14.2.3"
+  },
+  "resolutions": {
+    "@test/cjs-module": "file:local_modules/cjs-module",
+    "@test/esm-module": "file:local_modules/esm-module"
   }
 }

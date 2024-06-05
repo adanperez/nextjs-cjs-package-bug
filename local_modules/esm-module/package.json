@@ -1,0 +1,12 @@
+{
+  "name": "@test/esm-module",
+  "version": "1.0.0",
+  "description": "Test module for issue",
+  "license": "UNLICENSED",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "dependencies": {
+    "undici": "6.18.2"
+  }
+}
